@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Actuarial Science Laboratory (AS Lab) on </title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Actuarial Science Laboratory (AS Lab) on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;&#xA;&lt;p&gt;Promote academic excellence in Actuarial Science through innovative research and practical applications.&lt;/p&gt;&#xA;&lt;p&gt;Empower students and young researchers to develop critical thinking, problem-solving, and professional skills necessary for the evolving demands of the insurance and financial industries.&lt;/p&gt;&#xA;&lt;p&gt;Bridge the gap between theory and practice, providing real-world insights and solutions to emerging risks and uncertainties.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-we-do&#34;&gt;What we do&lt;/h2&gt;&#xA;&lt;h3 id=&#34;integrity-at-heart-excellence-in-action-innovation-for-the-future&#34;&gt;Integrity at Heart, Excellence in Action, Innovation for the Future.&lt;/h3&gt;&#xA;&lt;p&gt;We strive to cultivate:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

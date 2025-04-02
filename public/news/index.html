@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-serif leading-normal tracking-normal bg-white">
+  <div id="swup" class="transition-main">
+    
+    <div class="absolute top-6 left-1/2 transform -translate-x-1/2">
+      <a href="/">
+        <img src="images/logo-as1.png" alt="Logo" class="h-24">
+      </a>
+    </div>
+    
+    
+    <button id="menu-btn" class="absolute top-6 right-6 text-5xl z-30">☰</button>
+
+    <main class="home flex flex-col items-center justify-center min-h-[500px] text-center px-6 py-16">
+      <h1 class="font-medium text-[clamp(30px,5vw,60px)] leading-[1.2] mt-20">
+        Actuarial Science Laboratory <br> at <br> NEU College of Technology
+      </h1>
+    </main>
+  </div>
+
+  
+  <div id="overlay-menu" class="fixed inset-0 bg-black bg-opacity-95 z-40 flex flex-col justify-center items-center text-white text-4xl space-y-8 transform scale-0 transition-transform duration-300">
+    <a href="/about/" class="hover:underline">About</a>
+    <a href="#research" class="hover:underline">Research</a>
+    <a href="#news" class="hover:underline">News</a>
+    <a href="#events" class="hover:underline">Events</a>
+    <a href="#publications" class="hover:underline">Publications</a>
+    <a href="#contact" class="hover:underline">Contact</a>
+    
+    <button id="close-btn" class="absolute top-6 right-8 text-6xl">&times;</button>
+  </div>
+
+  
+  <header class="relative bg-cover bg-center h-[450px] flex flex-col items-center justify-center text-white" style="background-image: url('background.jpg');">
+    <div class="bg-black text-white w-full py-12 md:pt-24 md:pb-36 text-center flex flex-col justify-center items-center gap-6 md:gap-12">
+      <div class="h2 md:col-span-1 text-4xl font-bold mb-3 leading-tight text-center">Our Vision</div>
+      <div contenteditable class="text-xl font-medium leading-10 max-w-[900px] mx-4">To become a <strong> leading research hub </strong> in Actuarial Science — recognized for <strong> academic excellence </strong>, <strong>innovation </strong>, and  <strong> real-world impact </strong>.</div>
+  </header>
+
+  
+  <section class=" text-black py-16 mt-12 ">
+    <div class="container mx-auto grid md:grid-cols-2 gap-12 md:items-center px-6">
+        <h2 class="text-3xl font-bold">Integrity at Heart, Excellence in Action, Innovation for the Future.</h2>
+        <div>
+            <h3 class="text-xl font-semibold">We STRIVE TO CULTIVATE</h3>
+            <ul class="list-disc list-inside mt-4 space-y-2">
+                <li>Research & Innovation</li>
+                <li>Education & Training</li>
+                <li>Collaboration & Impact</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+  
+  <section class="container py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-16 items-start">
+            <h2 class="h2 md:col-span-1 text-4xl font-bold mb-3 leading-tight text-center">
+                Contact Us
+            </h2>
+        <div class="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div class="label-value">
+                <h3 class="label font-bold mb-4">EMAIL</h3>
+                <a href="mailto:as@lab.nct.edu" target="_self" class="body-text dark flex items-center gap-2">
+                    <span class="interactive-link-inline align-middle pr-4 reverse underline">as@lab.nct.edu</span> 
+                    <span>&rarr;</span>
+                </a>
+            </div>
+            <div class="label-value">
+                <h3 class="label font-bold mb-4">CONTACT US IN PERSON</h3>
+                <address class="value flex flex-col not-italic">
+                    <span>Room 1209B, A1 Building</span>
+                    <span>National Economics University</span>
+                    <span>207 Giai Phong Street, Dong Tam Ward</span>
+                    <span>Hai Ba Trung District, Hanoi, Vietnam</span>
+                </address>
+                <a href="https://maps.app.goo.gl/Tv3ubzYBt99PKyHdA" target="_blank" class="flex items-center gap-2 body-text mb-4">
+                    <span class="interactive-link dark reverse underline">Map</span> 
+                    <span>&rarr;</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+  <footer class="bg-black text-white py-8 sm:py-12">
+    <div class="container mx-auto px-6 sm:px-12 lg:px-24 grid grid-cols-1 sm:grid-cols-12 gap-6 sm:gap-12">
+      <div class="sm:col-span-5 flex items-start space-x-4">
+          <img src="images/logo_as.png" alt="AS Lab Logo" class="h-24">
+          <div>
+              <p class="text-xs font-bold uppercase">NEU College of Technology</p>
+              <h2 class="text-2xl font-bold leading-snug">Actuarial<br>Science<br>Laboratory</h2>
+          </div>
+        </div>
+        <ul class="sm:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-2 text-xl font-medium text-left">
+          <li><a class="hover:underline" href="#about">About</a></li>
+          <li><a class="hover:underline" href="#research">Research</a></li>
+          <li><a class="hover:underline" href="#news">News</a></li>
+          <li><a class="hover:underline" href="#events">Events</a></li>
+          <li><a class="hover:underline" href="#publications">Publications</a></li>
+          <li><a class="hover:underline" href="#contact">Contact</a></li>
+        </ul>
+        <div class="sm:col-span-12 border-t border-white pb-0"></div>
+        <div class="sm:col-span-12 flex justify-between items-center mt-0">
+            <p class="text-xs">&copy; 2025 AS Lab. All rights reserved.</p>
+            <a href="https://nct.neu.edu.vn/" class="text-xs hover:underline">NCT University</a>
+        </div>
+    </div>
+</footer>
+
+  
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const overlayMenu = document.getElementById('overlay-menu');
+    const closeBtn = document.getElementById('close-btn');
+    menuBtn.addEventListener('click', () => overlayMenu.classList.replace('scale-0', 'scale-100'));
+    closeBtn.addEventListener('click', () => overlayMenu.classList.replace('scale-100', 'scale-0'));
+    document.querySelectorAll('#overlay-menu a').forEach(link => {
+      link.addEventListener('click', () => overlayMenu.classList.replace('scale-100', 'scale-0'));
+    });
+  </script>
+</body>
+</html>
